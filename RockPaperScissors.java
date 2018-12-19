@@ -27,7 +27,7 @@ public static boolean isBetween(double smallerValue , double biggerValue, double
     //Start
     userInput = JOptionPane.showInputDialog(null,"Choose your item:");
 
-    //User-Ouput
+    //User-Output
     System.out.println("Your input was: " + userInput);
     System.out.print(coincidenceValue + " --> ");
 
