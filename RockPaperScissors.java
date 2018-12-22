@@ -10,19 +10,6 @@ public class RockPaperScissors{
     }
   }
 
-  public static boolean isReversed(String input){
-    String reversed = "";
-    for(int i = input.length()-1; i >= 0; i--){
-      reversed += input.charAt(i);
-    }
-
-    if(input.toLowerCase().equals(reversed.toLowerCase())){
-      return true;
-    }else{
-      return false;
-    }
-  }
-
   public static void main(String... args){
 
     //Variable declarations
