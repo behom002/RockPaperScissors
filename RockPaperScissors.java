@@ -23,23 +23,6 @@ public class RockPaperScissors{
     }
   }
 
-  /*
-    Possible combinations:
-    rr, rp, rs, pr, pp, ps,sr, sp, ss
-
-    same input : rr,pp,ss
-
-    individual request: rp,rs,pr,ps,sr,sp
-
-    real individual because not reversed
-    rp,rs,ps
-
-    example
-    rp ,pr
-    rock paper or paper rock
-
-    */
-
   public static void main(String... args){
 
     //Variable declarations
